@@ -2,16 +2,16 @@ import { ComponentFixture, TestBed } from '@angular/core/testing';
 // import { RouterTestingModule } from '@angular/router/testing';
 import { RouterTestingModule } from '@angular/router/testing';
 import { HttpClientTestingModule, HttpTestingController } from '@angular/common/http/testing';
-import { CustomerApplyFormComponent } from './customerapplyform.component';
+import { CustomerapplyformComponent } from './customerapplyform.component';
 
-describe('CustomerApplyFormComponent', () => {
-  let component: CustomerApplyFormComponent;
+describe('CustomerapplyformComponent', () => {
+  let component: CustomerapplyformComponent;
   beforeEach(() => TestBed.configureTestingModule({
     imports: [HttpClientTestingModule], 
-    providers: [CustomerApplyFormComponent]
+    providers: [CustomerapplyformComponent]
   }));
   beforeEach(() => {
-    const fixture = TestBed.createComponent(CustomerApplyFormComponent);
+    const fixture = TestBed.createComponent(CustomerapplyformComponent);
     component = fixture.componentInstance;
   });
   it('FE_customerApplyFormTest', () => {
