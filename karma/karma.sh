@@ -30,8 +30,6 @@ then
         echo "FE_adminHomepageTest FAILED";
     fi 
 
-
-
     # checking for adminreview component
     if [ -d "/home/coder/project/workspace/angularapp/src/app/components/adminside/adminreview" ]
     then

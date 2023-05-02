@@ -2,16 +2,16 @@ import { ComponentFixture, TestBed } from '@angular/core/testing';
 // import { RouterTestingModule } from '@angular/router/testing';
 import { RouterTestingModule } from '@angular/router/testing';
 import { HttpClientTestingModule, HttpTestingController } from '@angular/common/http/testing';
-import { CustomerReviewComponent } from './customerreview.component';
+import { CustomerreviewComponent } from './customerreview.component';
 
-describe('CustomerReviewComponent', () => {
-  let component: CustomerReviewComponent;
+describe('CustomerreviewComponent', () => {
+  let component: CustomerreviewComponent;
   beforeEach(() => TestBed.configureTestingModule({
     imports: [HttpClientTestingModule], 
-    providers: [CustomerReviewComponent]
+    providers: [CustomerreviewComponent]
   }));
   beforeEach(() => {
-    const fixture = TestBed.createComponent(CustomerReviewComponent);
+    const fixture = TestBed.createComponent(CustomerreviewComponent);
     component = fixture.componentInstance;
   });
   it('FE_customerReviewTest', () => {

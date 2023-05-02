@@ -2,16 +2,16 @@ import { ComponentFixture, TestBed } from '@angular/core/testing';
 // import { RouterTestingModule } from '@angular/router/testing';
 import { RouterTestingModule } from '@angular/router/testing';
 import { HttpClientTestingModule, HttpTestingController } from '@angular/common/http/testing';
-import { LoanStatusComponent } from './loanstatus.component';
+import { LoanstatusComponent } from './loanstatus.component';
 
-describe('LoanStatusComponent', () => {
-  let component: LoanStatusComponent;
+describe('LoanstatusComponent', () => {
+  let component: LoanstatusComponent;
   beforeEach(() => TestBed.configureTestingModule({
     imports: [HttpClientTestingModule], 
-    providers: [LoanStatusComponent]
+    providers: [LoanstatusComponent]
   }));
   beforeEach(() => {
-    const fixture = TestBed.createComponent(LoanStatusComponent);
+    const fixture = TestBed.createComponent(LoanstatusComponent);
     component = fixture.componentInstance;
   });
   it('FE_loanStatusTest', () => {
